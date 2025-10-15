@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 5, 19);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-left,.nav-right{
+    display: flex;
+    gap:40px;
+    padding: 25px;
+    font-size: 18px;
+    align-items: center;
+    
+}
+
+
+.nav-left a ,.nav-right a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-left li , .nav-right li{
+    list-style: none;
+}
+
+.join{
+    background-color: rgb(29, 125, 235);
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 17px;
+     border: none;
+}
+
+
+#hiro{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: 80px;
+  padding-top: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+ 
+  /* flex: 1; */
+}
+.container-left h1{
+     font-size: 60px;
+}
+
+.container-left H4{
+    font-size: 20px;
+}
+
+
+
+
+.container-right img {
+  object-fit: cover;
+  object-position: top right;
+   height: 650px;
+  width: 100%;
+  display: block; 
+}
+
+
+
+.button-2{
+    width: 250px;
+    height: 67px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+
+}
+.button-3{
+    width: 140px;
+    height: 67px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+#hero-3 {
+  display: flex;
+  background-color: #00050d;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.container3-left {
+  padding: 100px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  margin: 40px;
+}
+
+.gallery-container img {
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.container3-left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+
+}
+
+
+.qqq{
+    font-size: 44px;
+}
+
+.www{
+    font-size: 17px;
+}
+
+
+.footer-container{
+    background-color: #222222;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+     margin-top: 10px;
+
+}
+
+
+.footer-container img{
+    height: 35px;
+    margin-top: 25px;
+}
+
+
+.texs{
+    display: flex;
+    gap: 13px;
+     margin: 8px;
+  color: #79b8f3;
+
+}
+
+.copy{
+    margin-bottom: 20px;
+  color: #8197a4;
+}

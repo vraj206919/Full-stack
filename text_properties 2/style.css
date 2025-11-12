@@ -1,0 +1,27 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+    /* line-height: 10px; */
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    
+}
+
+ul,li{
+ text-decoration: none;
+ font-size: 150px;   
+ font-style: italic;
+ text-transform: uppercase;
+ text-indent: 500px;
+ color: aquamarine;
+ list-style: none;
+}

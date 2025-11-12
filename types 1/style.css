@@ -1,0 +1,15 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    color: rgb(219, 0, 0);
+}
+
+
+.exatanale{
+    font-size: 700px;
+}

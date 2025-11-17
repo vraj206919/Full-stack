@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.box-2{
+     width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgb(207, 11, 11),rgb(18, 192, 192));
+}
+
+.box-3{
+     width: 100%;
+    height: 600px;
+    background-image: radial-gradient(rgb(201, 135, 59),rgb(37, 14, 80));
+
+}
+
+.box-4{
+     width: 100%;
+    height: 600px;
+    background-image: conic-gradient(rgb(25, 0, 255),rgb(34, 134, 201));
+}

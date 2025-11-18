@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+}
+
+
+.container{
+     width: 700px;
+     height: 900px;
+     border: 1px solid black;
+     margin: auto;
+     margin-top: 30px;
+     /* position: relative; */
+}
+
+.box{
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.red{
+    position: static;
+    top: 20px;
+    background-color: red;
+}
+
+.orange{
+   background-color: orange;
+   position: relative;
+   left: 700px;
+}
+
+.blue{
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+}
+
+.green  {
+    background-color: green;
+    position: fixed;
+    bottom: 200px;
+    z-index: 1;
+}
+
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 600px;
+    overflow: visible;
+}

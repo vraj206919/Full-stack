@@ -1,0 +1,24 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 700px;
+    height: 700px;
+    background-color: rgb(223, 12, 12);
+    margin-top: 90px;
+    text-align: center;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-property:  background-color, border-radius;
+    transition-timing-function: linear;
+
+}
+
+.box:hover{
+    background-color: rgb(17, 1, 245);
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
